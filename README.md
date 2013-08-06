@@ -5,6 +5,8 @@ Unity-Webapps-HipChat
 
 <p>For more information about Ubuntu Unity Web apps see this: http://developer.ubuntu.com/resources/technologies/webapps/</p>
 
+<img src="https://github.com/arpadszasz/unity-webapps-hipchat/blob/master/hipchat-counter.png" />
+
 <p>This application was inspired by https://github.com/eudennis/unity-webapps-feedly</p>
 
 <h4>Installing:</h4>
