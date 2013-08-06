@@ -31,6 +31,7 @@ function getAlertCount () {
 
     if (alert_count > 0) {
         Unity.Launcher.setCount(Number(alert_count));
+        Unity.MessagingIndicator.showIndicator("Active rooms", { count: alert_count });
     } else {
         Unity.Launcher.clearCount();
     }
