@@ -1,0 +1,18 @@
+Source: unity-webapps-hipchat
+Section: web
+Priority: extra
+Standards-Version: 0.0.1
+Maintainer: Árpád Szász <arpad.szasz@plenum.ro>
+Build-Depends: debhelper (>=7)
+Homepage: https://hipchat.com/
+
+Package: unity-webapps-hipchat
+Architecture: all
+Section: web
+Priority: extra
+Depends: unity-webapps-common, xdg-utils, ${misc:Depends}
+XB-Ubuntu-Webapps-Includes: http://*.hipchat.com/*;https://*.hipchat.com/*;https://*.hipchat.com
+XB-Ubuntu-Webapps-Name: HipChat
+XB-Ubuntu-Webapps-Domain: hipchat.com
+Description: Unity Webapp for HipChat
+ HipChat Webapp for Unity
