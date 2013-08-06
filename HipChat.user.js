@@ -43,7 +43,7 @@ function setupHipChat() {
         return;
     }
 
-    setInterval(wrapCallback(getAlertCount), 2000);
+    setInterval(wrapCallback(getAlertCount), 4000);
     getAlertCount();
 
     return true;
